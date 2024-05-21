@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Nike-Clone-BE",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

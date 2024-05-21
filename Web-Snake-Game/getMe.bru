@@ -1,0 +1,15 @@
+meta {
+  name: getMe
+  type: http
+  seq: 8
+}
+
+get {
+  url: {{host}}/users/getMe/?username=test99
+  body: none
+  auth: none
+}
+
+query {
+  username: test99
+}

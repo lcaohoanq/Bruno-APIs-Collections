@@ -1,0 +1,18 @@
+meta {
+  name: FirstDemo
+  type: http
+  seq: 1
+}
+
+post {
+  url: localhost:8080/loginform/loginservlet
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "user": "bao",
+      "pass": "1"
+  }
+}

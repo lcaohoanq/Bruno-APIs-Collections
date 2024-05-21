@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Dreame-Clone-Backend",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

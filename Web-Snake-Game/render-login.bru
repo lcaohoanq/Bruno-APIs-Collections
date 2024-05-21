@@ -1,0 +1,18 @@
+meta {
+  name: render-login
+  type: http
+  seq: 7
+}
+
+post {
+  url: {{render}}/users/login
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "username": "duongmanhnguyen",
+      "password": "$2b$10$CyWPS5ik9G3cxte.fWTjm.l1P5BSbkI0wC4RH9PdqxtkBfkulelJK"
+  }
+}
