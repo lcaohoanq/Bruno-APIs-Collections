@@ -5,7 +5,17 @@ meta {
 }
 
 post {
-  url: localhost:4000/user/register
-  body: none
+  url: http://localhost:4000/user/register
+  body: json
   auth: none
+}
+
+body:json {
+  {
+      "email_phone": "hoangclw@gmail.com",
+      "first_name": "Hoang",
+      "last_name": "Luu Cao",
+      "password": "Luucaohoang0612^^",
+      "subcription": 0
+  }
 }

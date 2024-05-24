@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "PRJ301",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

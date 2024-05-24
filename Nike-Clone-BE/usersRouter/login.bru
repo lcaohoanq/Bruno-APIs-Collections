@@ -5,7 +5,18 @@ meta {
 }
 
 post {
-  url: localhost:4000/user/login
-  body: none
-  auth: none
+  url: http://localhost:4000/user/login
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjY0ZDhlMjVkN2ZjM2I5N2IzYTBjMzVkIiwidG9rZW5fdHlwZSI6MCwic3RhdHVzIjowLCJpYXQiOjE3MTYzNTg2OTMsImV4cCI6MTcxNjc5MDY5M30.9D74ZIOr5s_clRcAoExkyc7y-UObgNfJTpV53Brh4Ug
+}
+
+body:json {
+  {
+    "email_phone": "hoangclw@gmail.com",
+    "password": "Luucaohoang0612^^"
+  }
 }

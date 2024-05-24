@@ -1,0 +1,21 @@
+meta {
+  name: login
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/mobile-crud/LoginController
+  body: formUrlEncoded
+  auth: none
+}
+
+body:form-urlencoded {
+  user: ST001
+  pass: 345678
+}
+
+body:multipart-form {
+  user: ST001
+  pass: 345678
+}
