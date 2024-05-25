@@ -15,20 +15,13 @@
           "formUrlEncoded": [],
           "multipartForm": []
         },
-        "auth": {
-          "mode": "none",
-          "basic": {
-            "username": "",
-            "password": ""
-          },
-          "bearer": {
-            "token": ""
-          }
-        },
         "script": {},
         "vars": {},
         "assertions": [],
         "tests": "",
+        "auth": {
+          "mode": "none"
+        },
         "query": []
       }
     },
@@ -36,66 +29,6 @@
       "type": "folder",
       "name": "oauthRouter",
       "items": [
-        {
-          "type": "http",
-          "name": "callback after login by Facebook",
-          "seq": 4,
-          "request": {
-            "url": "localhost:4000/oauth/facebook/callback",
-            "method": "GET",
-            "headers": [],
-            "body": {
-              "mode": "none",
-              "formUrlEncoded": [],
-              "multipartForm": []
-            },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
-            },
-            "script": {},
-            "vars": {},
-            "assertions": [],
-            "tests": "",
-            "query": []
-          }
-        },
-        {
-          "type": "http",
-          "name": "callback after login by google",
-          "seq": 2,
-          "request": {
-            "url": "localhost:4000/oauth/google/callback",
-            "method": "GET",
-            "headers": [],
-            "body": {
-              "mode": "none",
-              "formUrlEncoded": [],
-              "multipartForm": []
-            },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
-            },
-            "script": {},
-            "vars": {},
-            "assertions": [],
-            "tests": "",
-            "query": []
-          }
-        },
         {
           "type": "http",
           "name": "Login Fail",
@@ -109,20 +42,13 @@
               "formUrlEncoded": [],
               "multipartForm": []
             },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
-            },
             "script": {},
             "vars": {},
             "assertions": [],
             "tests": "",
+            "auth": {
+              "mode": "none"
+            },
             "query": []
           }
         },
@@ -139,20 +65,59 @@
               "formUrlEncoded": [],
               "multipartForm": []
             },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
             "auth": {
+              "mode": "none"
+            },
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "callback after login by Facebook",
+          "seq": 4,
+          "request": {
+            "url": "localhost:4000/oauth/facebook/callback",
+            "method": "GET",
+            "headers": [],
+            "body": {
               "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
+              "formUrlEncoded": [],
+              "multipartForm": []
             },
             "script": {},
             "vars": {},
             "assertions": [],
             "tests": "",
+            "auth": {
+              "mode": "none"
+            },
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "callback after login by google",
+          "seq": 2,
+          "request": {
+            "url": "localhost:4000/oauth/google/callback",
+            "method": "GET",
+            "headers": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "auth": {
+              "mode": "none"
+            },
             "query": []
           }
         },
@@ -169,20 +134,13 @@
               "formUrlEncoded": [],
               "multipartForm": []
             },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
-            },
             "script": {},
             "vars": {},
             "assertions": [],
             "tests": "",
+            "auth": {
+              "mode": "none"
+            },
             "query": []
           }
         },
@@ -199,20 +157,13 @@
               "formUrlEncoded": [],
               "multipartForm": []
             },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
-            },
             "script": {},
             "vars": {},
             "assertions": [],
             "tests": "",
+            "auth": {
+              "mode": "none"
+            },
             "query": []
           }
         }
@@ -235,20 +186,13 @@
               "formUrlEncoded": [],
               "multipartForm": []
             },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
-            },
             "script": {},
             "vars": {},
             "assertions": [],
             "tests": "",
+            "auth": {
+              "mode": "none"
+            },
             "query": []
           }
         },
@@ -265,20 +209,13 @@
               "formUrlEncoded": [],
               "multipartForm": []
             },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
-            },
             "script": {},
             "vars": {},
             "assertions": [],
             "tests": "",
+            "auth": {
+              "mode": "none"
+            },
             "query": []
           }
         }
@@ -301,20 +238,13 @@
               "formUrlEncoded": [],
               "multipartForm": []
             },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
-            },
             "script": {},
             "vars": {},
             "assertions": [],
             "tests": "",
+            "auth": {
+              "mode": "none"
+            },
             "query": []
           }
         }
@@ -326,7 +256,7 @@
       "items": [
         {
           "type": "http",
-          "name": "get user's profile",
+          "name": "get user-s profile",
           "seq": 2,
           "request": {
             "url": "localhost:4000/user/me",
@@ -337,29 +267,22 @@
               "formUrlEncoded": [],
               "multipartForm": []
             },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
-            },
             "script": {},
             "vars": {},
             "assertions": [],
             "tests": "",
+            "auth": {
+              "mode": "none"
+            },
             "query": []
           }
         },
         {
           "type": "http",
-          "name": "login",
+          "name": "login email",
           "seq": 8,
           "request": {
-            "url": "http://localhost:4000/user/login",
+            "url": "{{host}}/user/login",
             "method": "POST",
             "headers": [],
             "body": {
@@ -368,20 +291,43 @@
               "formUrlEncoded": [],
               "multipartForm": []
             },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
             "auth": {
               "mode": "bearer",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
               "bearer": {
                 "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjY0ZDhlMjVkN2ZjM2I5N2IzYTBjMzVkIiwidG9rZW5fdHlwZSI6MCwic3RhdHVzIjowLCJpYXQiOjE3MTYzNTg2OTMsImV4cCI6MTcxNjc5MDY5M30.9D74ZIOr5s_clRcAoExkyc7y-UObgNfJTpV53Brh4Ug"
               }
+            },
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "login phone number",
+          "seq": 12,
+          "request": {
+            "url": "{{host}}/user/login",
+            "method": "POST",
+            "headers": [],
+            "body": {
+              "mode": "json",
+              "json": "{\n  \"email_phone\": \"0934162561\",\n  \"password\": \"Luucaohoang0612^^\"\n}",
+              "formUrlEncoded": [],
+              "multipartForm": []
             },
             "script": {},
             "vars": {},
             "assertions": [],
             "tests": "",
+            "auth": {
+              "mode": "bearer",
+              "bearer": {
+                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjY1MTVkYTMxODM1MmNmOGE3ZWMxOTE2IiwidG9rZW5fdHlwZSI6MCwic3RhdHVzIjowLCJpYXQiOjE3MTY2MDg0MTksImV4cCI6MTcxNzA0MDQxOX0.L9FS5If0R7qfbzNgmf63jyfEHNgu2dllFI82vEQAP4k"
+              }
+            },
             "query": []
           }
         },
@@ -395,24 +341,17 @@
             "headers": [],
             "body": {
               "mode": "json",
-              "json": "{\n    \"email_phone\": \"hoangclw@gmail.com\",\n    \"first_name\": \"Hoang\",\n    \"last_name\": \"Luu Cao\",\n    \"password\": \"Luucaohoang0612^^\",\n    \"subcription\": 0\n}",
+              "json": "{\n    \"email_phone\": \"0934162561\",\n    \"first_name\": \"Hoang\",\n    \"last_name\": \"Luu\",\n    \"password\": \"Luucaohoang0612^^\",\n    \"subcription\": 0\n}",
               "formUrlEncoded": [],
               "multipartForm": []
-            },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
             },
             "script": {},
             "vars": {},
             "assertions": [],
             "tests": "",
+            "auth": {
+              "mode": "none"
+            },
             "query": []
           }
         },
@@ -429,170 +368,37 @@
               "formUrlEncoded": [],
               "multipartForm": []
             },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
-            },
             "script": {},
             "vars": {},
             "assertions": [],
             "tests": "",
+            "auth": {
+              "mode": "none"
+            },
             "query": []
           }
         },
         {
           "type": "http",
-          "name": "send otp forgot password to user's email or phone number",
-          "seq": 7,
+          "name": "search API account - POST",
+          "seq": 11,
           "request": {
-            "url": "localhost:4000/user/forgot-password",
+            "url": "{{host}}/user/search",
             "method": "POST",
             "headers": [],
             "body": {
-              "mode": "none",
+              "mode": "json",
+              "json": "{\n  \"email_phone\": \"hoangclw@gmail.com\"\n}",
               "formUrlEncoded": [],
               "multipartForm": []
-            },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
             },
             "script": {},
             "vars": {},
             "assertions": [],
             "tests": "",
-            "query": []
-          }
-        },
-        {
-          "type": "http",
-          "name": "send otp verify account to user's email or phone number",
-          "seq": 4,
-          "request": {
-            "url": "http://localhost:4000/user/send-verify-account-otp",
-            "method": "POST",
-            "headers": [],
-            "body": {
-              "mode": "none",
-              "formUrlEncoded": [],
-              "multipartForm": []
-            },
             "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
+              "mode": "none"
             },
-            "script": {},
-            "vars": {},
-            "assertions": [],
-            "tests": "",
-            "query": []
-          }
-        },
-        {
-          "type": "http",
-          "name": "update user's profile",
-          "seq": 1,
-          "request": {
-            "url": "localhost:4000/user/me",
-            "method": "PATCH",
-            "headers": [],
-            "body": {
-              "mode": "none",
-              "formUrlEncoded": [],
-              "multipartForm": []
-            },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
-            },
-            "script": {},
-            "vars": {},
-            "assertions": [],
-            "tests": "",
-            "query": []
-          }
-        },
-        {
-          "type": "http",
-          "name": "verify account",
-          "seq": 3,
-          "request": {
-            "url": "localhost:4000/user/verify-account",
-            "method": "POST",
-            "headers": [],
-            "body": {
-              "mode": "none",
-              "formUrlEncoded": [],
-              "multipartForm": []
-            },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
-            },
-            "script": {},
-            "vars": {},
-            "assertions": [],
-            "tests": "",
-            "query": []
-          }
-        },
-        {
-          "type": "http",
-          "name": "verify otp",
-          "seq": 6,
-          "request": {
-            "url": "localhost:4000/user/verify-otp",
-            "method": "POST",
-            "headers": [],
-            "body": {
-              "mode": "none",
-              "formUrlEncoded": [],
-              "multipartForm": []
-            },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
-            },
-            "script": {},
-            "vars": {},
-            "assertions": [],
-            "tests": "",
             "query": []
           }
         },
@@ -609,20 +415,16 @@
               "formUrlEncoded": [],
               "multipartForm": []
             },
-            "auth": {
-              "mode": "bearer",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjY0ZDhlMjVkN2ZjM2I5N2IzYTBjMzVkIiwidG9rZW5fdHlwZSI6MCwic3RhdHVzIjowLCJpYXQiOjE3MTYzNTg2OTMsImV4cCI6MTcxNjc5MDY5M30.9D74ZIOr5s_clRcAoExkyc7y-UObgNfJTpV53Brh4Ug"
-              }
-            },
             "script": {},
             "vars": {},
             "assertions": [],
             "tests": "",
+            "auth": {
+              "mode": "bearer",
+              "bearer": {
+                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjY0ZDhlMjVkN2ZjM2I5N2IzYTBjMzVkIiwidG9rZW5fdHlwZSI6MCwic3RhdHVzIjowLCJpYXQiOjE3MTYzNTg2OTMsImV4cCI6MTcxNjc5MDY5M30.9D74ZIOr5s_clRcAoExkyc7y-UObgNfJTpV53Brh4Ug"
+              }
+            },
             "query": [
               {
                 "name": "email",
@@ -634,37 +436,172 @@
         },
         {
           "type": "http",
-          "name": "search API account - POST",
-          "seq": 11,
+          "name": "send otp forgot password to user-s email or phone number",
+          "seq": 7,
           "request": {
-            "url": "http://localhost:4000/user/search",
+            "url": "localhost:4000/user/forgot-password",
             "method": "POST",
             "headers": [],
             "body": {
-              "mode": "json",
-              "json": "{\n  \"email\": \"kplsf8/JOTIqYdiLgiQUI8TCfTJ0NanyNVKFAxyGkdA\"\n}",
+              "mode": "none",
               "formUrlEncoded": [],
               "multipartForm": []
-            },
-            "auth": {
-              "mode": "none",
-              "basic": {
-                "username": "",
-                "password": ""
-              },
-              "bearer": {
-                "token": ""
-              }
             },
             "script": {},
             "vars": {},
             "assertions": [],
             "tests": "",
+            "auth": {
+              "mode": "none"
+            },
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "send otp verify account to user-s email or phone number",
+          "seq": 4,
+          "request": {
+            "url": "http://localhost:4000/user/send-verify-account-otp",
+            "method": "POST",
+            "headers": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "auth": {
+              "mode": "none"
+            },
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "test-searchPhoneNumber",
+          "seq": 13,
+          "request": {
+            "url": "{{host}}/user/searchPhone?phone=0934162561",
+            "method": "GET",
+            "headers": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "auth": {
+              "mode": "none"
+            },
+            "query": [
+              {
+                "name": "phone",
+                "value": "0934162561",
+                "enabled": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "http",
+          "name": "update user-s profile",
+          "seq": 1,
+          "request": {
+            "url": "localhost:4000/user/me",
+            "method": "PATCH",
+            "headers": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "auth": {
+              "mode": "none"
+            },
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "verify account",
+          "seq": 3,
+          "request": {
+            "url": "localhost:4000/user/verify-account",
+            "method": "POST",
+            "headers": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "auth": {
+              "mode": "none"
+            },
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "verify otp",
+          "seq": 6,
+          "request": {
+            "url": "localhost:4000/user/verify-otp",
+            "method": "POST",
+            "headers": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "auth": {
+              "mode": "none"
+            },
             "query": []
           }
         }
       ]
     }
   ],
-  "environments": []
+  "environments": [
+    {
+      "variables": [
+        {
+          "name": "host",
+          "value": "http://localhost:4000",
+          "enabled": true,
+          "secret": false,
+          "type": "text"
+        }
+      ],
+      "name": "Nike-BE"
+    }
+  ],
+  "brunoConfig": {
+    "version": "1",
+    "name": "Nike-Clone-BE",
+    "type": "collection",
+    "ignore": [
+      "node_modules",
+      ".git"
+    ]
+  }
 }
